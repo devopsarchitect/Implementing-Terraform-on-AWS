@@ -11,3 +11,10 @@ terraform plan -out vpc.tfplan
 terraform apply "vpc.tfplan"
 
 # Make note of the VPC ID output
+
+
+State path: terraform.tfstate
+
+Outputs:
+
+vpc_id = vpc-02ea4732d1648e0f2
