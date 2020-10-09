@@ -1,4 +1,6 @@
 # Initialize the terraform configuration
+
+
 terraform init
 
 # Plan the terraform deployment
