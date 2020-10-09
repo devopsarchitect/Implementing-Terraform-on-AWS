@@ -21,7 +21,7 @@ provider "aws" {
   alias   = "peer"
   profile = "infra"
   assume_role {
-      role_arn = var.peer_role_arn
+      role_arn = "arn:aws:iam::935468439062:role/peer_role"
   }
 
 }
